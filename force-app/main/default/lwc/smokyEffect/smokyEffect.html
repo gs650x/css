@@ -1,0 +1,9 @@
+<template>
+    <div class="background-body">
+        <ul class={styleClass}>
+            <template for:each={name} for:item="value">
+                <li key={value}>{value}</li>
+            </template>
+        </ul>
+    </div>
+</template>
